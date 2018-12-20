@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CheckBox_NotShowOffer.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_ShowOffer.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_IsNotVendedorTransfMesa.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_IsPayThenCommnand.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_IsNotDivCtaNum.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_IsDivCtaNum.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_IsPreguntarComanda.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_IsSalirTomadoralEnviar.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_IsNotPrintCentral.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_DescuentoProgramado.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_IsDiscountClients.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_NotShowOpcPrebill.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_IsNotDeleteItemNotSend.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_IsUsePoints.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_NotPrintProducts.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_SubGroupOrder.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_NotNroSubmesas.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_IsVendedorTransfMesa.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_ShowOpcPrebill.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_NotShowTax.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_Tax3.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_WithStore.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_PermisoAdminReimpComanda.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_ShowTax.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_Tax2.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_NotIsDiscountClients.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_NoPermisoAdminReimpComanda.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_IsPersonNum.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_NotIsExigeEnvioComanda.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_UnloadDirect.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_IsNotPrintPrecountSend.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_NotIsUsePoints.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_IsPrintCentral.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_NoPermisoAdminReimpPrecuenta.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_NoDescuentoProgramado.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_IsNotPersonNum.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_PrintProducts.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_PermisoAdminReimpPrecuenta.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_IsPrintPrecountSend.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_Tax1.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_NotIsSalirTomadoralEnviar.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="btnConfigurarCorreo.BackgroundImage" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA+gEAAAKJUE5HDQoaCgAAAA1JSERSAAAAZAAAAEAIBgAAAOzf0nQAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAF/SURBVHhe7dzBTQJBFIDhLYESKMESLIESKMESPHG1BEqgBEqwBEqwBH0PZhJ3XI0izPyH/yVfojsDh/2zLOGw019mt9s96nrlNF4/8Sar8BRew7tu4hi2YVVO8+8mXvAc3sLSm+r/8txuyun+fmJTXhVeEf3sy6n/OrFojDGOJcF8cqHZqH7mV0ocyJv30kb1c/kmFn/kR5U38PFONYhXB0QN4r0DogZZXFR/GeOhPahxMkj+zrK4qP4MAmMQGIPAGATGIDAGgTEIjEFgDAJjEBiDwBgExiAwBoExCIxBYAwCYxAYg8AYBMYgMAaBMQiMQWAMAmMQGIPAGATGIDAGgTEIjEFgDAJjEBiDwBgExiAwBoExCIxBYAwCk0HW7UGNUx8+47OyIGqQQ7ugMWqQTbugMc5BcuKfU7uo7g4lxzmI37bGyvv4uuS4TBx4+bRBfW1LhvnEwr7ZqPtbjlEnNuRz35deqNvKj6mfY9SJjfksRp9Wej/5STS/Z0zT9AGYbb2hKaEqYwAAAABJRU5ErkJgggs=</value>
+  </data>
+  <data name="Button_TNS.BackgroundImage" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA+gEAAAKJUE5HDQoaCgAAAA1JSERSAAAAZAAAAEAIBgAAAOzf0nQAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAF/SURBVHhe7dzBTQJBFIDhLYESKMESLIESKMESPHG1BEqgBEqwBEqwBH0PZhJ3XI0izPyH/yVfojsDh/2zLOGw019mt9s96nrlNF4/8Sar8BRew7tu4hi2YVVO8+8mXvAc3sLSm+r/8txuyun+fmJTXhVeEf3sy6n/OrFojDGOJcF8cqHZqH7mV0ocyJv30kb1c/kmFn/kR5U38PFONYhXB0QN4r0DogZZXFR/GeOhPahxMkj+zrK4qP4MAmMQGIPAGATGIDAGgTEIjEFgDAJjEBiDwBgExiAwBoExCIxBYAwCYxAYg8AYBMYgMAaBMQiMQWAMAmMQGIPAGATGIDAGgTEIjEFgDAJjEBiDwBgExiAwBoExCIxBYAwCk0HW7UGNUx8+47OyIGqQQ7ugMWqQTbugMc5BcuKfU7uo7g4lxzmI37bGyvv4uuS4TBx4+bRBfW1LhvnEwr7ZqPtbjlEnNuRz35deqNvKj6mfY9SJjfksRp9Wej/5STS/Z0zT9AGYbb2hKaEqYwAAAABJRU5ErkJgggs=</value>
+  </data>
+  <data name="CheckBox_IsDeleteItemNotSend.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_IsNotPayThenCommnand.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_IsExigeEnvioComanda.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_NroSubmesas.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAYwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADoSURBVEhL7dYxDoIwGIZh7+RlvIYn8AguqAcwcYQdNEwqC7K4ORhwcDEuOhg1qX4mEKi1/SutiQkk71KgTygNofXzY+A4/Weh7XIsXCUxy7LUWkHgswLDwO1+tVYULRusfv+PrfdTNkm67HQ5VsaNY/HOYz2//Wq46FRAo1gZypttRsV5Y5gI0n6ywzl9W3s+CoSkWD6J6Eb+GhWEPmLYUaoJdCBExviJdCFEWkZ+wvl2LByXQUi5QUQgHwVCSgzJQCqESBj65h3xkTFUBnUhpIUhgKKPLCVtrE4NZqQKhv86DNjKc132AB/8cDyjll8uAAAAAElFTkSuQmCCCw==</value>
+  </data>
+  <data name="CheckBox_NotSubGroupOrder.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="CheckBox_IsNotPreguntarComanda.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAXwEAAAKJUE5HDQoaCgAAAA1JSERSAAAAGwAAABsIBgAAAI3U9FUAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADkSURBVEhLY6A7mDplyn96YLhlv//8oik+ceL4qGWUY6It+3TmJFZxdPzlxtX/Pz+8wypHlGVPWhr+X7Mx+/92y0as8jAMsuiGh9P/uwnRWC0kaBnMIhjGZSHMIpg6bBbitezbk0coBsAwuoXoFsHw+wN7UdQR9Bkug2AWEpJHxkTFGS4DX86ZQbRFIEyUZSCMy0J0jMsiECbaMhAmZCE+i0CYJMtAGGQgNotAqRabemQ8OH1GtzijW2rEZRHMQELyyBivZXQvQehWNsIw3Up9GKZbfUYtPEIsW79uHU3xooUL/wMAJygrAj3tZNgAAAAASUVORK5CYIIL</value>
+  </data>
+</root>
